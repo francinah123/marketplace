@@ -1,0 +1,22 @@
+{"level":"info","message":"Backend running on http://localhost:4000","timestamp":"2025-12-01T21:51:12.098Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{"productId":"undefined"},"url":"/api/reviews?productId=undefined"},"timestamp":"2025-12-01T21:51:50.929Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{"productId":"undefined"},"url":"/api/reviews?productId=undefined"},"timestamp":"2025-12-01T21:51:50.962Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-01T21:51:52.073Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-01T21:51:52.098Z"}
+{"level":"info","message":{"body":{"amount":100,"campaignId":"c1"},"method":"POST","query":{},"url":"/api/donation/contribute"},"timestamp":"2025-12-01T21:51:54.267Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-01T21:51:54.287Z"}
+{"level":"info","message":"Backend running on http://localhost:4000","timestamp":"2025-12-01T21:59:22.728Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-01T22:00:55.841Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-01T22:00:55.860Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-02T03:14:33.698Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-02T03:14:33.706Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-02T03:17:20.972Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/donation/campaigns"},"timestamp":"2025-12-02T03:17:20.980Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/messenger/conversations"},"timestamp":"2025-12-02T03:17:31.354Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/messenger/conversations"},"timestamp":"2025-12-02T03:17:31.377Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/messenger/conversations"},"timestamp":"2025-12-02T04:04:59.299Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/messenger/conversations"},"timestamp":"2025-12-02T04:04:59.320Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/messenger/conversations"},"timestamp":"2025-12-02T04:05:02.425Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/messenger/conversations"},"timestamp":"2025-12-02T04:05:02.433Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/marketplace?"},"timestamp":"2025-12-02T04:05:04.178Z"}
+{"level":"info","message":{"body":{},"method":"GET","query":{},"url":"/api/marketplace?"},"timestamp":"2025-12-02T04:05:04.189Z"}
