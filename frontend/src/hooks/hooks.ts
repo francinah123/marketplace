@@ -1,6 +1,6 @@
 import { useQuery, useMutation } from "@tanstack/react-query";
-import { http } from "../../services/http";
-import type { NotificationItem } from "../../components/NotificationPanel";
+import { http } from "../services/http";
+import type { NotificationItem } from "../components/NotificationPanel";
 
 export function useNotifications() {
   return useQuery({

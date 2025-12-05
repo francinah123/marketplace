@@ -1,24 +1,29 @@
 import { z } from "zod";
 
+// === Notifications ===
 export const NotificationItemSchema = z.object({
   id: z.string(),
   type: z.enum(["follow", "like", "comment", "purchase", "system"]),
   actor: z.string(),
   message: z.string(),
   timeAgo: z.string(),
-  avatarUrl: z.string().optional()
+  avatarUrl: z.string().optional(),
 });
 export type NotificationItem = z.infer<typeof NotificationItemSchema>;
 
-export const NewUserSchema = z.object({
+// === Persisted User (seeded users) ===
+export const UserSchema = z.object({
   id: z.string(),
   name: z.string(),
   followers: z.number().min(0),
-  avatarUrl: z.string().optional()
+  avatarUrl: z.string().optional(),
 });
-export const ImagePostSchema = z.object({
-  author: z.string().min(1),
-  caption: z.string().optional(),
-  imageUrls: z.array(z.string().url())
+export type User = z.infer<typeof UserSchema>;
+
+// === New User Registration DTO ===
+export const NewUserSchema = z.object({
+  username: z.string().min(1),
+  email: z.string().email(),
+  password: z.string().min(6),
 });
-export type ImagePostPayload = z.infer<typeof ImagePostSchema>;
+export type NewUser = z.infer<typeof NewUserSchema>;

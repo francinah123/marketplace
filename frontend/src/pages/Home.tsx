@@ -2,7 +2,7 @@ import { useState } from "react";
 import NotificationPanel from "../components/NotificationPanel";
 import QwertyUsersPanel, { QUser } from "../components/QwertyUsersPanel";
 import UploadMenu, { UploadAction } from "../components/UploadMenu";
-import { useNotifications, useFollowUser, useUploadAction } from "../features/posts/hooks";
+import { useNotifications, useFollowUser, useUploadAction } from "../hooks/hooks";
 
 export default function Home() {
   const [notifOpen, setNotifOpen] = useState(false);
